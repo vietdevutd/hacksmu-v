@@ -1,0 +1,15 @@
+what is my electricity bill in Aug?
+what is my dog name?
+what is my project about?
+what is my computer graphics assignment 1?
+when is it due?
+what is the email of teaching assistant?
+which team presents on Google Cloud Tech?
+give me a list of customers who are younger than 30
+give me all information about Daisey,Whyteman
+
+curl -X POST -H "Content-Type: application/json" -d '{"query": "what is my computer graphics assignment 1?"}' http://localhost:5000/api/query
+
+curl -X POST -F "file=@/Users/khiem/Desktop/Python/chatgpt-retrieval/data/sample.pptx" http://localhost:5000/api/upload
+
+curl http://localhost:5000/api/list-files
