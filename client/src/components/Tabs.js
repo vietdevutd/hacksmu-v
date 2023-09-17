@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import 'react-tabs/style/react-tabs.css';
 import Box from '@mui/material/Box';
 import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
